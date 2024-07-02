@@ -5,7 +5,6 @@
 Eu sou a Luana Teodósio, sou física e mestre em Engenharia Elétrica na área de controle de sistemas dinâmicos. Sou apaixonada por aprender e tenho curiosidade sobre tecnologia, história (principalmente, as grandes guerras), psicologia e religião, sendo uma estudante independente nessas áreas.
 
 ## Conecte-se comigo:
-![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)
 
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luanateodosio/)
 
