@@ -1,0 +1,49 @@
+*{
+    background-color: antiquewhite;
+}
+p{
+    color: goldenrod;
+}
+
+#paragrafo{
+    color: blue;
+}
+
+.paragrafo{
+    color: aqua;
+}
+
+div p {
+    color: green;
+}
+
+p{
+    color: blueviolet;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    font-size: 10px
+}
+
+p{
+    color: red;
+    font-size: 10px;
+}
+
+p{
+    color: red;
+    font-size: 2em;
+}
+
+p{
+    color: palegreen;
+    font-size: 10px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+PL:wght@100..400&display=swap');
+

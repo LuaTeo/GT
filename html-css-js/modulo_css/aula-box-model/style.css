@@ -1,0 +1,135 @@
+
+/******************************************/
+body{
+    font-size: 20px;
+    align-items:normal;
+    align-self:baseline;
+}
+
+/******************************************/
+.box{
+    width: 400px;
+    /*height: 280px;*/
+    text-align: justify;
+    background-color: lavender;
+    padding: 20px 20px;
+    margin: 50px;
+    /*border: 3px solid rosybrown;*/
+    border-width: 5px;
+    border-style:dashed;
+    border-color: rosybrown;
+}
+
+/******************************************/
+.disp-1{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    padding: 10px 10px;
+    width: 150px;
+    height: 150px;
+    background-color: lightcoral;
+    border: 3px solid lightseagreen;
+    display: inline-block;
+}
+
+.disp-2{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    padding: 10px 10px;
+    width: 150px;
+    height: 150px;
+    background-color: royalblue;
+    border: 3px solid lightseagreen;
+    display: inline-block;
+}
+
+.disp-3{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    padding: 10px 10px;
+    width: 150px;
+    height: 150px;
+    background-color: greenyellow;
+    border: 3px solid lightseagreen;
+    display: inline-block;
+}
+
+.visible{
+    visibility: visible;
+}
+
+.not-visible {
+    visibility: hidden;
+}
+
+/******************************************/
+#mein{
+    width: 500px;
+    height: 350px;
+    background-color:darkmagenta;
+    position: relative;
+}
+
+#pos-1{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    position: absolute;
+    right: 100px;
+
+}
+
+#pos-2{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    bottom: 100px;
+    right: 200px;
+
+}
+
+#pos-3{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    position: absolute;
+    left: 100px;
+
+}
+
+/******************************************/
+#secc {
+    width: 700px;
+    height: 550px;
+    background-color:coral;
+    padding: 40px;
+}
+
+#primer {
+    width: 400px;
+    height: 350px;
+    background-color:crimson;
+    padding: 30px;
+
+}
+
+#primer-0 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    margin: 15px;
+    float: left;
+}
+
+/******************************************/
+li{
+    
+    float: left;
+    list-style: none;
+    margin-right: 22px;
+    
+}

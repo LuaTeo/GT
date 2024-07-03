@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início Dev</title>
+    <style>
+        body{
+            background-color: silver;
+        }
+        p {
+            font-size: 16px;
+            background-color: white;
+            border: 3px solid black;
+        }
+        #codigo {
+            font-size: 16px;
+            background-color: white;
+            border: 3px solid black;
+        }
+        #segundo{
+            font-size: 10px;
+            color: white;
+            background-color: black;
+            border: 1.5px solid black;
+        }
+        #terceiro{
+            font-size: 20px;
+            color: purple;
+            background-color: yellow;
+            border: 1.5px solid black;
+        }
+        #m1{
+            background-color: white;
+            border: 3px solid black;
+        }
+        #m2{
+            background-color: white;
+            border: 3px solid black;
+        }
+    </style>
+</head>
+<body> 
+    <header>
+        <hr>
+        <h1 style="text-align: center; background-color:slategray;font-family: Tahoma">Início Dev - 2° Atividade</h1>
+        <h2 style="text-align: center;">Criando Meu Primeiro Site</h2>
+        <img width="100%" height="250" src="https://smartarmorcube.com/wp-content/uploads/2017/02/internet-of-things_high_res.jpg" alt="">
+        <p>
+            Esta página servirá também como um início rápido para estudos, onde o objetivo será dar agilidade à procura de tags para edição de texto web.
+            <br>
+            A intenção é sempre atualizá-la com novas tags e novas funcionalidades.</p>
+        <h3>Menu de navegação</h3>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Tags de início</a></li>
+            <li><a href="#listas">Tags de listas</a></li>
+            <li><a href="#diferença">Síntaxe x Semântica</a></li>
+            <li><a href="#form">Quebra de linha e formatação</a></li>
+            <li><a href="#estilo">Estilizando o texto</a></li>
+            <li><a href="#code">Outra formatação</a></li>
+            <li><a href="#m1">Acrescentando áudio</a></li>
+            <li><a href="#m2">Acrescentando imagem e vídeo</a></li>
+        </ul>
+    </nav>
+    </header>
+    <hr>
+
+    <main>
+        <section id="dia1">
+            <h2>Primeiro dia de aula: Introdução</h2>
+                <ul>
+                    <li>Tags de início</li>
+                    <li>Tags de listas</li>
+                    <li>Síntaxe x Semântica</li>
+                </ul>
+            <h3>Tags iniciais:</h3>
+            <p id="inicio">
+                A Tag "h" representa título. Começando sempre do título que quer dar maior importância até o de menor importâcia.
+                Conceitualmente existe seis níveis de títulos (h1, h2, h3, h4, h5 e h6).
+                <br>
+                <br>
+                A partir de então, temos "p" que representa tag de parágrafo.
+                <br>
+                <br>
+                Em seguida, as tag de escrita mais simples: "b" que serve para destacar texto em negrito; "i" que serve para destacar texto em itálico; "u" que serve para destacar texto sublinhando.
+            </p>
+            <h3>Tags de listas:</h3>
+            <p id="listas">
+                As listas são divididas em ordenadas, representadas pela tag "ol", e não ordenas, representadas pela tag "ul". Onde a diferença está na forma em que são apresentadas, enquanto as ordenas são numeradas as não ordenadas apresentam pontos no lugar dos números. <br> Dentro delas ficam os itens de listas descritos pela tag "li".
+            </p>
+            <div style="background-color: white; border: 3px solid black; ">
+                <h5>Lista Ordenada</h5>
+                <ol>
+                    <li>Física</li>
+                    <li>matemática</li>
+                    <li>História</li>
+                </ol>
+                <h5>Lista Não-Ordenada</h5>
+                <ul>
+                    <li>Casa</li> 
+                    <li>Carro</li>
+                    <li>Avião</li>
+                </ul>
+            </div>
+            <h3>Síntaxe x Semântica:</h3>
+            <p id="diferença">
+                HTML trata da síntaxe e da semântica da escrita do tento. A síntaxe se refere a forma como deve ser escrito para que seja criado e a semântica se refere ao sentido do texto através do uso das tags.
+                <br>
+                <span style="color: brown;">Exemplo:</span>
+                <br>
+                A tag "b" é a forma (a síntaxe) com que é possível criar um texto em negrito. Já a tag "strong" também deixa um texto em negrito, no entanto ela dá relevância a quele texto para os buscadores.
+            </p>
+        </section>
+
+        <section id="dia2">
+            <article>
+                <h2>Segundo dia de aula: Expandindo a Página</h2>
+                    <p>
+                        Para essa segunda atividade do curso de <strong>Desenvolvimento Web Full Stack</strong> do projeto <span style="color: blue;">Geração Tech</span>, o objetivo é adicionar, além de algumas tags de formatação e estilização, tags de mídia com arquivos de mídia como áudio, vídeo e imagem utilizando links internos.
+                    </p>
+
+            </article>
+            <article>
+                <h3>Quebra de linha</h3>
+                <p id="form">
+                    Para quebra de linha, utiliza-se a tag de quebra de linha "br", observe que essa é uma tag sem fechamento.
+                    <br>
+                    <span style="color: brown;">Exemplo:</span> 
+                    <br>
+                    <br>
+                    <i>Sem a tag br:</i>
+                    <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, in? Facilis, explicabo vel! Pariatur inventore fugit nihil saepe, nam voluptates dicta tempore rem, delectus officia exercitationem velit provident! Consequatur, recusandae.
+                    <br>
+                    <br>
+                    <i>Com a tag br:</i>
+                    <br>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non exercitationem totam, velit vel <br> harum aliquid sed aliquam maiores, nam culpa, quo modi unde sit illum pariatur corrupti odio rem eos.
+
+                    <br>
+                    <br>
+                    A tag "pre" também é um recurso interessante para produzir um texto pré-formatado. Reconhece o espaçamento, muda fonte e formatações sugeridas pelo escritor.
+                    <br>
+                    <span style="color: brown;">Exemplo:</span>
+                </p>
+                <p>
+                    <i>Sem a tag:</i>
+                    <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus iusto fuga nostrum, ex et fugiat maxime, voluptas obcaecati nisi perspiciatis pariatur quam! Error aut autem consectetur ea! Eveniet, magnam quam!
+                    <br>
+                    <br>
+                    <i>Com a tag:</i>
+                </p>
+                    <pre style="border: 3px solid black; background-color: white;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.        
+                        Corrupti, accusantium nisi pariatur similique 
+                        aperiam dolores ut repudiandae ipsa, eos nam perspiciatisenim sunt
+                         itaque quo, consectetur corporis! Debitis, quam aut!
+                    </pre>
+            </article>
+
+            <article id="code">
+                <h3>Outras formatações</h3>
+                <p>
+                    Outra formatação interessante está relacionada a tag "code", que é usada para escrever um texto em formato de código em linguagem de programação.
+                    <br>
+                    <span style="color: brown;">Exemplo:</span>
+                </p>
+                <pre id="codigo">
+                    <code style="text-align: center;">
+                        # Definição da constante para o número de páginas do livro
+                        NUMERO_PAGINAS = 350  # Exemplo de valor para o número de páginas
+
+                        # Armazenando informações do livro em variáveis
+                        titulo = "O Senhor dos Anéis"
+                        autor = "J.R.R. Tolkien"
+                        ano_publicacao = 1954
+                        numero_paginas = NUMERO_PAGINAS  # Usando a constante
+                        editora = "Allen & Unwin"
+
+                        # Exibindo as informações do livro
+                        print("Informações do Livro:")
+                        print(f"Título: {titulo}")
+                        print(f"Autor: {autor}")
+                        print(f"Ano de Publicação: {ano_publicacao}")
+                        print(f"Número de Páginas: {numero_paginas}")
+                        print(f"Editora: {editora}")
+
+                    </code>
+                </pre>
+            </article>
+        
+            <article id="estilo">
+                <h3>Estilizando o texto</h3>
+                <p>Escolhendo cor de fundo, cor da fonte, bordas, tamanha da fonte com a tag "style".</p>
+                <p id="primeiro" style="color: blueviolet; background-color: black; border: 3px solid salmon;">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat dicta numquam aut molestiae necessitatibus impedit, qui nihil? Quaerat voluptas tenetur inventore atque exercitationem sunt magni! Non, fugiat quo? Saepe, eligendi?Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, in. Voluptates dolore adipisci animi repellendus corrupti, ut illum, nemo omnis sint, provident dolorum voluptatibus laudantium amet voluptate accusantium unde culpa.
+                </p>
+                <p id="segundo">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus natus expedita maxime voluptatum explicabo iure quidem iste dolores? Nulla officiis aperiam rerum quod voluptatem libero reiciendis deleniti saepe voluptate consequatur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. A perspiciatis temporibus tempora? Praesentium totam quo, quibusdam ratione fugit sed explicabo dolore, molestias nemo non, cumque sit quas optio minima. Quibusdam!
+                </p>
+                <p id="terceiro">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi et, cumque fugiat possimus omnis nulla iure amet eius placeat voluptatem ex illo consectetur! Sunt facilis odio temporibus rem nobis.
+                </p>
+            </article>
+            <article>
+                <h3>Importação de Mídias</h3>
+                <p>Para adicionar imagens, áudio e vídeo internamente, usasse as tags: "img","audio" e "vídeo", além disso também é possível formatar atrávés de algumas propriedades. com pode ser visto abaixo:</p>
+
+                <p id="m2" style="text-align: center;">
+                    <audio src="arquivos-midia/Arrival.mp3" controls>Aproveite para ouvir um pouco.
+                    </audio>
+                </p>
+
+                <p id="m1" style="text-align: center;">
+                    <img width="330" height="330" src="https://itshow.com.br/wp-content/uploads/2023/09/portalitshow_a_software_development_76380de7-d7a4-4cbb-b3eb-4d31bafbe83d-1-1024x574.webp" alt="Imagem Desenvolvedor">
+
+                    <video id="m3" width="300" height="330" src="arquivos-midia/video.mp4" controls></video>
+                </p>
+            </article>
+        
+
+        </section>
+
+        
+    </main>
+
+</body>
+</html>

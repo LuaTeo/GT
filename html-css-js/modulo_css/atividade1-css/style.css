@@ -1,0 +1,40 @@
+
+body {
+    color: rgb(34, 31, 31);
+    background-color: rgb(30, 67, 80);
+    
+}
+
+.bio {
+    /*background-color: rgb(78, 212, 89);*/
+    color: white;
+    font-family: cursive;
+}
+
+.skill {
+    font-size: 20px; color: white;
+}
+
+.per {
+    border: 0.5px solid rgb(26, 221, 228);
+}
+
+.LP {
+    border: 0.5px solid rgb(117, 247, 112);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.text {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.image {
+    flex: 1;
+}

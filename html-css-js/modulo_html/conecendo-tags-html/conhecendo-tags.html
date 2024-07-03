@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilizando o Texto</title>
+    <style>
+        #segundo{
+            font-size: 12px;
+            color: black;
+            background-color: seagreen;
+            border: 1.5px solid black;
+        }
+    </style>
+    <!--
+    <style>
+        p {
+            font-size: 11px;
+            background-color: black;
+            border: 3px solid red;
+        }
+        #segundo{
+            font-size: 10px;
+            color: white;
+            background-color: black;
+            border: 1.5px solid black;
+        }
+    </style>
+    -->
+
+</head>
+<body>
+    <header>
+        <hr>
+        <h1>Theodosius Dev</h1>
+        <nav>
+            <a href="index.html" target="_blank">Home</a>
+            <a href="contato.html" target="_blank">Contato</a>
+            <a href="sobre.html" target="_blank">Sobre</a>
+
+        </nav>
+        <hr>
+    </header>
+    <h1>Utilizando tags para estilização de texto</h1>
+
+    <h3>Menu de navegação</h3>
+    <nav>
+        <ul>
+            <li><a href="#br">Quebra de linha usando o br</a></li>
+            <li><a href="#pre">Quebra de linha usando o pre</a></li>
+            <li><a href="#mark">marcações no texto</a></li>
+            <li><a href="#sup"> Formatações</a></li>
+            <li><a href="#code">Outras formatações</a></li>
+        </ul>
+    </nav>
+    <article id="br">
+        <h2>Quebra de linha usando o br</h2>
+        <p>
+            Utilizando tag de quebra de linha "br", observe que essa é uma tag sem fechamento.
+            <br>
+            <span style="color: brown;">Exemplo:</span>
+        </p>
+        <p>
+        <!--alz+z quebra o texto aqui na tela do vc code-->
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor minus ipsa, tenetur adipisci perspiciatis consectetur quo vero autem molestias labore earum quam aut iste fugit harum provident reprehenderit soluta neque?
+        </p>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>Dolor minus ipsa, tenetur adipisci perspiciatis consectetur quo vero autem molestias labore earum quam aut iste fugit harum provident reprehenderit soluta neque?
+        </p>
+    </article>
+    <article id="pre">
+        <h2>Quebra de linha usando o pre</h2>
+
+        <p>
+            O "pre" é uma tag para textp pré-formatado. Reconhece o espaçamento, muda fonte e formatações sugeridas pelo escritor.
+            <br>
+            <span style="color: brown;">Exemplo:</span>
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus iusto fuga nostrum, ex et fugiat maxime, voluptas obcaecati nisi perspiciatis pariatur quam! Error aut autem consectetur ea! Eveniet, magnam quam!
+        </p>
+        <pre>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.        
+             Corrupti, accusantium nisi pariatur similique aperiam dolores ut repudiandae ipsa, eos nam perspiciatisenim sunt itaque quo, consectetur corporis! Debitis, quam aut!
+        </pre>
+    </article>
+    <article id="mark">
+        <h2>Marcações no texto</h2>
+
+        <p>
+            As tags "mark", "del" e "u" são usadas para fazer marcações no texto.
+            <br>
+            <span style="color: brown;">Exemplos:</span>
+
+        </p>
+        <p>
+            <mark>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.</mark> Enim nobis dicta ex nihil quis rerum exercitationem consequuntur quam incidunt deserunt nam aperiam omnis eos maiores aut provident, doloribus dolor veniam!
+            <br>
+            <br>
+            <del>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</del> Illo molestiae cum consequatur, sit fugiat velit suscipit voluptatem harum impedit quos veritatis error alias earum culpa deserunt similique optio! Excepturi, ipsam.
+            <br>
+            <br>
+            <u>Lorem ipsum dolor sit amet consectetur adipisicing elit.</u> Explicabo nesciunt aperiam vitae quo minima tempore saepe officia iure ex veritatis, voluptas ducimus cumque velit, consectetur quia molestiae nihil debitis temporibus.
+        </p>
+    </article>
+    <article id="sup">
+        <h2>Formatações</h2>
+        <p> 
+            As tags "sup" e "sub" são usadas para sub ou descer palavras ou números no texto.
+            <br>
+            <span style="color: brown;">Exemplo:</span>
+
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur <sup> adipisicing</sup> elit. Vitae <sub>voluptatum</sub> dignissimos atque saepe repellat, cum reiciendis dolor libero laudantium, nostrum similique suscipit odio architecto a laboriosam iste! Consequatur, ab eveniet!
+        </p>
+
+    </article>
+    <article id="code">
+        <h2>Outras formatações</h2>
+        <p>
+            A tag "code" é usada para escrever um texto em formato de código de linguagem de programação.
+            <br>
+            <span style="color: brown;">Exemplo:</span>
+        </p>
+        <pre>
+            <code>
+                function Nomefun = {console}.ghjji
+            </code>
+        </pre>
+    </article>
+
+    <article>
+        <h2>Estilizando o texto</h2>
+        <p id="primeiro" style="color: blueviolet; background-color: black; border: 3px solid salmon;">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat dicta numquam aut molestiae necessitatibus impedit, qui nihil? Quaerat voluptas tenetur inventore atque exercitationem sunt magni! Non, fugiat quo? Saepe, eligendi?Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, in. Voluptates dolore adipisci animi repellendus corrupti, ut illum, nemo omnis sint, provident dolorum voluptatibus laudantium amet voluptate accusantium unde culpa.
+        </p>
+        <p id="segundo">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus natus expedita maxime voluptatum explicabo iure quidem iste dolores? Nulla officiis aperiam rerum quod voluptatem libero reiciendis deleniti saepe voluptate consequatur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. A perspiciatis temporibus tempora? Praesentium totam quo, quibusdam ratione fugit sed explicabo dolore, molestias nemo non, cumque sit quas optio minima. Quibusdam!
+        </p>
+        <p id="terceiro">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi et, cumque fugiat possimus omnis nulla iure amet eius placeat voluptatem ex illo consectetur! Sunt facilis odio temporibus rem nobis.
+        </p>
+    </article>
+    <article>
+        <h2>Importação de Mídias</h2>
+        <img width="" height="" src="arquivos/" alt="imagem">
+        <br>
+        <audio src="arquivos/" controls>aperte o play</audio>
+        <br>
+        <audio controls>
+            <source src="arquivos/" type="audio/mpeg">
+            <br>
+            <source src="arquivos/" type="audio/ogg">
+            <br>
+            O navegador não suporta.
+        </audio>
+        <br>
+        <video src="arquivos/" controls>assista</video>
+        <br>
+        <video controls>
+            <source src="arquivos/" type="video/mpeg">
+        </video>
+
+    </article>
+
+    <article>
+        <iframe width="100%" src="iframe.html" frameborder="0"></iframe>
+    </article>
+    
+</body>
+</html>

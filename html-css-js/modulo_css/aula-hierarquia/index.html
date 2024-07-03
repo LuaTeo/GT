@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <title>Aula Hierarquia</title>
+
+</head>
+<body>
+    
+    <main>
+        <p id="paragrafo" class="paragrafo">
+            A hierarquia da folha css é dado de cima para baixo, no geral, daí o nome "cascading style sheet". No entanto, a maior hierarquia acontece do id, depois class, depois o nome da tag.
+        </p>
+        <p>
+            Se a página de estilo está com a mesma tag estiliza, então será lido do style mais inferior. 
+        </p>
+        <p>
+            Caso esteja iniciando com uma class e o mais inferior for uma tag. Então o que sera estilizado (ou adotado) é a class.
+        </p>
+
+        <p id="flag" class="paragrafo">
+            A flag !mportant pode ser aplicada a cada elemento de estilo para dá uma hierarquia maior a estilização.
+        </p>
+    </main>
+    <section>
+        <div>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum molestias adipisci nesciunt qui nisi excepturi, repudiandae quam accusamus id expedita distinctio ducimus, reiciendis iure. Consequatur et libero totam beatae velit!
+            </p>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout e Modelos de Caixa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Layout e Modelos</h1>
+    <header>
+        <hr>
+            <nav>
+                <ul>
+                    <li> <a style="text-decoration: none; color: crimson;" href="sec1">Seção 1</a></li>
+                    <li> <a style="text-decoration: none; color: crimson;" href="#sec2">Seção 2</a></li>
+                    <li> <a style="text-decoration: none; color: crimson;" href="#sec3">Seção 3</a></li>
+                    <li> <a style="text-decoration: none; color: crimson;" href="#sec4">Seção 4</a></li>
+                    <li> <a style="text-decoration: none; color: crimson;" href="#sec5">Seção 5</a></li>
+                </ul>
+
+                <!--<ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="">Contatos</a></li>
+                </ul>-->
+            </nav>
+        <br>
+        <hr>
+    </header>
+
+    <main>
+        <section id="sec1">
+            <h2>Uso de Box Models</h2>
+            <p style="text-align:justify">
+            O conceito de box model se refere a estilização em blocos. Os elementos de HTML são descritos em "caixas". Na folha de estilo css "style.css" é definido uma div contendo propriedades como: width, height, content, padding, margin, border e etc.
+            <br>
+            <br>
+            Então, todo conteúdo dentro da caixa estará sujeito as propriedades dela.
+            <br>
+            <br>
+            <span style="color: red;">Exemplo 1:</span>
+            </p>
+            <div class="box">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, ducimus porro amet illo nisi deleniti maiores asperiores! Numquam, deserunt perferendis illo tempora pariatur aliquam culpa ab soluta voluptate deleniti esse.
+                </p>
+            </div>
+        </section>
+
+        <section id="sec2">
+            <h2>Uso da propriedade "Display"</h2>
+            <p>
+                A propriedade display é muito utilizada para alterar a forma com que as caixas se alinham.
+                <br>
+                <br>
+                <span style="border: 3px solid gray;">display:none = Não renderiza a caixa e possibilitando que o mesmo não ocupe espaço de tela.</span>
+                <br>
+                <span style="border: 3px solid gray;">display:inline = Não permite configurar estilo e formatação em caixa. Tendo o mesmo comportamento em linha. </span>
+                <br>
+                <span style="border: 3px solid gray;">display:inline-block = Possue os dois comportamento, inline e block, mantendo as caixas lado a lado.</span>
+                <br>
+                <br>
+                <span style="color: red;">Exemplo 2:</span>
+            </p>
+            <div class="disp-1">Oi</div>
+            <div class="disp-2">Hi</div>
+            <div class="disp-3">Привет</div>
+
+            <h2>Propriedade "Visibility"</h2>
+            <p>
+                A propriedade visibility pode mostrar ou esconder um elemento sem afetar o layout da página. <br>Também pode ocultar linhas ou colunas em uma tabela.
+                <br>
+                <br>
+                <span style="color: red;">Exemplo 3:</span>
+            </p>
+
+            <div id="visi" class="box">
+                <p class="visible"> O primeiro parágrafo é visível.</p>
+                <p class="not-visible"> O segundo parágrafo não é visível.</p>
+                <p class="visible"> O terceiro parágrafo é visível. <br>(Entre o primeiro e o terceiro parágrafo existe um segundo parágrafo. O segundo parágrafo não é visível <br> mais ainda ocupa espaço no layout.)
+                </p>
+            </div>
+        </section>
+        <section id="sec3">
+            <h2>Uso da propriedade Position</h2>
+            <p>
+                Essa propriedade permite posicionar os elementos HTML onde quiser.
+                <br>
+                <br>
+                <span style="border: 3px solid gray;"><b> Positio:static</b> = É a posição padrão do HTML. E se organiza de acordo com a tag utilizada. Também pode ser posicionado em top, left, botton, right e etc.</span>
+                <br>
+                <span style="border: 3px solid gray;"> <b> Position:absolute</b> = Define a posição absoluta da div em relação ao elemento pai principal. Ou seja, a posição é relacionada a posição do documento.</span>
+                <br>
+                <span style="border: 3px solid gray;"> <b> Position:relative</b> = Define a posição em relação a div (ou elemento) pai "associado".</span>
+                <br>
+                <span style="border: 3px solid gray;"> <b> Position:fixed</b> = Usa-se essa propriedade quando tiver um elemento dentro de um container pai e quiser posicionar fora, no documento. Também pode ser posicionado em top, left, botton, right e etc.</span>
+                <br>
+                <br>
+                <span style="color: red;">Exemplo 4:</span>
+            </p>
+            <div id="mein">
+                <div id="pos-1"></div>
+                <div id="pos-2"></div>
+                <div id="pos-3"></div>
+            </div>
+        </section>
+        <section id="sec4">
+            <h2>Uso da propriedade float</h2>
+            <p>
+                Permite o posicionamento lado a lado da div, fazendo com que elas "flutuem" se alinhando uma ao lado da outra.
+                <br>
+                <br>
+                <span style="color: red;">Exemplo 5:</span>
+            </p>
+            <div id="secc">
+                <div id="primer">
+                    <div id="primer-0">Primeira</div>
+                    <div id="primer-0">Segunda</div>
+                    <div id="primer-0">Terceira</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sec5">
+            <h2> Reset de estilos </h2>
+                <p>
+                    Técnicas para retirar, resetar, estilos padrões do HTML.
+
+                <!---F12 no navegador abre o console da ferramenta de desenvolvedor--->
+                </p>
+        </section>
+
+    </main>
+</body>
+</html>

@@ -1,0 +1,12 @@
+Para abrir o console do navegador:
+
+Google Chrome: Pressione Ctrl + Shift + J (Windows/Linux) ou Cmd + Option + J (Mac).
+Firefox: Pressione Ctrl + Shift + K (Windows/Linux) ou Cmd + Option + K (Mac).
+Edge: Pressione Ctrl + Shift + I e depois clique na aba "Console".
+
+Adicionar mensagens de log no código pode ajudar a entender o fluxo do programa e identificar onde os erros estão ocorrendo.
+let x = 5; let y = 0; console.log("Valor de x: " + x); console.log("Valor de y: " + y); let resultado = x / y; console.log("Resultado: " + resultado);
+
+Convertendo strings para números:
+parseInt - converte uma string em um número inteiro.
+parseFloat - converte uma string em um número de ponto flutuante;

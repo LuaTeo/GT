@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size:large;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: rgba(241, 18, 193, 0.945);
+    color: white;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Courier New', Courier;
+    padding: 35px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-image: url(digital-college-cores-1024x470-2871732040.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 110px;
+    position: relative;
+}
+
+header h1 {
+    font-size: 38px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.nav {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+ul {
+    display: flex;
+    gap: 10px;
+}
+
+main {
+    padding: 0px;
+    text-align: center;
+}
+
+.conteu {
+    background-color: rgba(241, 110, 213, 0.863);
+    padding: 30px;
+    margin: 0px 0;
+}
+
+.conteu1 h2 {
+    padding-bottom: 0px;
+    color: rgb(241, 18, 193);
+}
+
+.conteu1 {
+    font-style: normal;
+    color: rgba(3, 3, 3, 0.979);
+    background-color: white;
+    padding: 40px;
+    margin: 0 0 0 0;
+}
+
+.line {
+    display: flex;
+    width: 175px;
+    border-bottom: 3px solid rgb(241, 18, 193);
+    padding-bottom: 5px;
+    margin-left: 44.51%;
+    margin-bottom: 15px;
+    justify-content:center;
+    align-items: center;
+}
+
+.line1 {
+    display: flex;
+    width: 100px;
+    border-bottom: 3px solid rgb(241, 18, 193);
+    padding-bottom: 5px;
+    margin-left: 47%;
+    justify-content:center;
+    align-items: center;
+}
+
+.team {
+    margin: 20px 0;
+    color: rgba(241, 18, 193, 0.945);
+    background-color: white;
+    padding: 60px;
+    margin: 0 0;
+}
+
+.team h2 {
+    color: rgba(241, 18, 193, 0.945);
+}
+
+.menbro {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+}
+
+.avatar {
+    background-color: white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+}
+
+.team1 {
+    background-image: url('tec.png');
+}
+
+.team2 {
+    background-image: url('edu.png');
+}
+
+.team3 {
+    background-image: url('cont.png');
+}
+
+.menbro p {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.menbro span {
+    color: rgba(241, 18, 193, 0.945);
+}
+
+footer {
+    background-color: rgba(241, 18, 193, 0.945); 
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer div {
+    text-align: center;
+    padding: 30px;
+    margin-right: 5px;
+    background-image: url(digital-college-cores-1024x470-28717320401.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 180px;
+}

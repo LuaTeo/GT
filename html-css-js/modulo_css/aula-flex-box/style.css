@@ -1,0 +1,80 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    background-color: #d2691e;
+    font-size:larger ;
+    font-family:'Courier New', Courier;
+    padding: 8px;
+    display: flex;
+     /*usado para deixar um debaico do outro*/
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(1718928416631-Standard.png);
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size: 120px;
+    
+}
+
+ul {
+    display: flex;
+    gap: 10px;
+    /* a propriedade gap usada em conjunto com display flex permite um espaçamento apenas entre as palavras
+    justify-content: center; 
+    /*Centraliza no eixo y*/
+    /*align-items: center;*/ /*Centraliza no eixo x*/
+    /*Obs: Tem que usar junto com display:flex*/
+}
+
+main {
+    text-align: center;
+    flex: 1;
+    padding: 10;
+    margin-bottom: 0px;
+
+
+}
+
+h2 {
+    background-color: #fd842e;
+    color: white;
+}
+
+#div1 {
+    margin: 15px;
+    display: flex;
+    text-align: left;
+}
+
+footer {
+    width: 100%;
+    text-align: left;
+    font-size: 12px;
+    font-family: 'Courier New', Courier;
+    background-color: #d2691e;
+    background-image:url(Bockford2.png);
+    position: relative;
+    padding: 10px;
+}
+
+footer div {
+    text-align: center;
+    padding: 25px;
+    background-image: url(1718928416631-Standard.png);
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: 80px;
+}
