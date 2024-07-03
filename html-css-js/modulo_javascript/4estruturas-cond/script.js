@@ -1,6 +1,6 @@
-let numero1 = 4; 
-if (numero1 > 2) 
-    { console.log("O número é maior que 2"); }
+//let numero1 = 4; 
+//if (numero1 > 2) 
+//    { console.log("O número é maior que 2"); }
 // Se numero1 é maior que 2, a mensagem "O número é maior que 2" aparecerá no console do navegador.
 
 /* 
@@ -12,11 +12,12 @@ if (numero1 > 2)
 <= : menor ou igual a
  */
 
-console.log(2 + 2 == 4); // true
-console.log(2 + 2 == 5); // false
+//console.log(2 + 2 == 4); // true
+//console.log(2 + 2 == 5); // false
 
 // entre operações aritiméticas o retorno é um boleano.
 
+/*
 let numero = parseInt(prompt("Digite um número:")); // parseInt converte uma string em um inteiro.
 if (numero > 5)
     { console.log("O número é maior que 5"); }
@@ -43,3 +44,15 @@ else if (numero < 5)
         default: document.body.style.backgroundColor = "pink"; 
         document.body.style.color = "black"; 
     }
+}*/
+
+//let modo = "dark"; // Usando operador ternário para verificar se a variável está definida 
+//let mensagem = modo ? "Está definida" : "Não está definida"; 
+//console.log(mensagem); // Está definida
+let modo = "dark";
+let mensagem = (modo === "dark") ? "Modo escuro ativado" : "Modo claro ativado";
+console.log(mensagem); // Modo escuro ativado
+
+let numero = 5; 
+let tipoNumero = (numero > 0) ? "Positivo" : (numero < 0) ? "Negativo" : "Zero"; 
+console.log(tipoNumero); // Positivo 
