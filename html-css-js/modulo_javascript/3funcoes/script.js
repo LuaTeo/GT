@@ -24,3 +24,11 @@ preencherSelect(mes, 13); // Preenche o select de meses (1 a 12)*/
 let elemento = document.getElementById("meuElemento"); 
 elemento.innerHTML = "Texto atualizado"; 
 console.log(document.ELEMENT_NODE);
+
+localStorage.setItem("nome", "Fulano");
+
+let nome = localStorage.getItem("nome");
+console.log(nome);
+
+function mostrarHora() { let agora = new Date(); document.getElementById("relogio").innerHTML = agora.toLocaleTimeString(); }
+setInterval(mostrarHora, 1000);
