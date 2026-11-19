@@ -5,7 +5,8 @@ import React from 'react';
 //import FormadeBolo from './components/FormadeBolo';
 //import Card from './components/Card';
 //import CardDinamico from './components/CardDinamico';
-import Contador from './components/Contador';
+//import Contador from './components/Contador';
+import Input from './components/Input';
 import './App.css'
 
 // Exemplo padrão
@@ -62,8 +63,15 @@ export default App; */
 export default App; */
 
 // Exemplo Contador, usando useState
-const App = () => {
+/* const App = () => {
   return ( <div> <Contador /> </div> );
 };
+ 
+export default App; */
+
+// Exemplo utilizando useState e Input
+const App = () => {
+  return ( <div> <h1>Chamando variáveis</h1> <Input /> </div> );
+;}
  
 export default App;

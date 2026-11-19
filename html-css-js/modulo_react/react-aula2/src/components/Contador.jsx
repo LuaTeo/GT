@@ -1,5 +1,5 @@
 import React, { useState} from "react";
-
+//useState permite declarar variáveis de estado em componentes funcionais.
 const Contador = () => {
     //Declara uma variável de estado chamada "contador" e uma função para atualizá-la.
     const [contador, setContador] = useState(0); // função para incrementar o contador.
